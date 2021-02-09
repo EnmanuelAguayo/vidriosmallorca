@@ -1,0 +1,20 @@
+.fondo-sala{
+  background: url(../img/sala.png) center no-repeat;
+  background-size: 100%;
+  height: 97vh;
+}
+.solicitar-servicio{
+  position: absolute;
+  top: 35vh;
+  width: 35%;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 5%;
+}
+.tamaño-texto{
+  font-size: 2em;
+  text-shadow: 2px 2px 2px black;
+}
+.logo-vidrios-mallorca{
+  max-width: 65px;
+}

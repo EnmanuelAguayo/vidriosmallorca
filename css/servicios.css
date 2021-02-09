@@ -1,0 +1,43 @@
+
+.gray-text{
+  color: gray !important;
+}
+
+.fondo-servicios{
+  background: url(../img/solicitar_presupuesto.jpg) top center no-repeat;
+  background-size: 100%;
+  height: 97vh;
+}
+.logo-vidrios-mallorca{
+  max-width: 65px;
+}
+
+.solicitar-servicio{
+  position: absolute;
+  top: 60vh;
+  left: 50vw;
+  width: 35%;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 5%;
+}
+.tamaño-texto{
+  font-size: 2em;
+}
+
+/*Galeria de servicios / titulo*/
+
+/*Galeria de servicios / descripcion-galeria*/
+.descripcion-galeria{
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+/*Galeria de servicios / ajustar tarjeta*/
+.ajustar-tarjeta{
+  height: 300px;
+}
+/*Galeria de servicios / ajustar imagen*/
+.ajustar-imagen{
+  height: 150px;
+}
