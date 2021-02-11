@@ -1,31 +1,9 @@
-
-.gray-text{
-  color: gray !important;
-}
-
-.fondo-servicios{
-  background: url(../img/solicitar_presupuesto.jpg) top center no-repeat;
-  background-size: 100%;
-  height: 97vh;
-}
 .logo-vidrios-mallorca{
   max-width: 65px;
 }
-
-.solicitar-servicio{
-  position: absolute;
-  top: 60vh;
-  left: 50vw;
-  width: 35%;
-  text-align: left;
-  font-weight: bold;
-  margin-left: 5%;
+.gray-text{
+  color: gray !important;
 }
-.tamaño-texto{
-  font-size: 2em;
-}
-
-/*Galeria de servicios / titulo*/
 
 /*Galeria de servicios / descripcion-galeria*/
 .descripcion-galeria{
@@ -49,7 +27,7 @@
   .fondo-servicios{
     background: url(../img/solicitar_presupuesto.jpg) top center no-repeat;
     background-size: 100%;
-    height: 25vh;
+    height: 33vh;
   }
   .solicitar-servicio{
     position: absolute;
@@ -72,15 +50,15 @@
 }
 
 /*tablets*/
-@media (min-width:601px) and (max-width:901px){
+@media (min-width:601px) and (max-width:992px){
   .fondo-servicios{
     background: url(../img/solicitar_presupuesto.jpg) top center no-repeat;
     background-size: 100%;
-    height: 60vh;
+    height: 35vh;
   }
   .solicitar-servicio{
     position: absolute;
-    top: 35vh;
+    top: 25vh;
     left: 57vw;
     width: 35%;
     text-align: left;
@@ -95,5 +73,50 @@
   }
   .texto-descripcion-for-smartphone{
     font-size: 1.7em !important;
+  }
+}
+
+/*Dispositivos de escritorio >992px*/
+@media (min-width:993px) and (max-width:1200px){
+  .fondo-servicios{
+    background: url(../img/solicitar_presupuesto.jpg) center no-repeat;
+    background-size: 100%;
+    height: 50vh;
+  }
+  .solicitar-servicio{
+    position: absolute;
+    top: 25vh;
+    left: 57vw;
+    width: 35%;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 5%;
+  }
+  .titulo-for-smartphone{
+    font-size: 2.8em;
+  }
+  .tamaño-texto{
+    font-size: 2em;
+  }
+}
+
+/*Dispositivos de escritorio grandes >1200px*/
+@media (min-width:1201px){
+  .fondo-servicios{
+    background: url(../img/solicitar_presupuesto.jpg) top center no-repeat;
+    background-size: 100%;
+    height: 70vh;
+  }
+  .solicitar-servicio{
+    position: absolute;
+    top: 35vh;
+    left: 50vw;
+    width: 35%;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 5%;
+  }
+  .tamaño-texto{
+    font-size: 2em;
   }
 }

@@ -1,11 +1,5 @@
 
-  document.addEventListener('DOMContentLoaded', function() {
+  document.getElementsByClassName('sidenav-trigger')[0].addEventListener('click', function() {
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems, options);
-  });
-
-  // Or with jQuery
-
-  $(document).ready(function(){
-    $('.sidenav').sidenav();
   });
