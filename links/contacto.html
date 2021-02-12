@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialieze.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="../css/contacto.css"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Required meta tags-->
+    <meta charset="utf-8">
+    <title>Contáctenos</title>
+  </head>
+  <body>
+  <!--cabecera-->
+    <!--navbar y logo company-->
+    <nav>
+      <div class="nav-wrapper #9e9e9e grey">
+        <a href="#" class="brand-logo"><img class="logo-vidrios-mallorca" src="../img/logo-vidrios-mallorca.png" alt=""></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="acerca-de-la-empresa.html">Acerca de la Empresa</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li class="active"><a href="contacto.html">Contáctenos</a></li>
+        </ul>
+      </div>
+      <!--Breadcrumbs-->
+      <nav>
+        <div class="nav-wrapper #e0e0e0 grey lighten-2">
+          <div class="col s12">
+            <a href="../index.html" class="breadcrumb grey-text text-darken-2">Inicio</a>
+            <a href="#!" class="breadcrumb grey-text text-darken-3">Contáctenos</a>
+          </div>
+        </div>
+      </nav>
+    </nav>
+    <!--Contáctenos-->
+    <div class="row contenedor-formulario">
+      <div class="col s10 m10 l10 xl10 offset-s1 offset-m1 offset-l1 offset-xl1">
+        <div class="row">
+          <!--bienvenida al cliente-->
+          <div class="col s12 m12 l6 xl6">
+            <h2 class="titulo-mensaje-cliente">
+              Aqu&iacute puedes contar la asistencia que necesitas!!!
+            </h2>
+            <!--mensaje cliente-->
+            <p class="mensaje-cliente">
+              Al proporcionar tus datos, nuestro equipo de asistencia se estar&aacute comunicando contigo. Solo tienes que indicar el servicio que requieres, el tipo de proyecto y la ubicaci&oacuten.
+            </p>
+          </div>
+          <!--llenar formulario-->
+          <div style= "margin: 7% 0 0 0" class="col s12 m12 l6 xl6">
+            <div class="row">
+              <form class="col s12">
+                <!--Datos personales-->
+                <div class="row">
+                  <!--Nombre-->
+                  <div class="input-field col s6">
+                    <input type="text" id="first_name2" class="validate">
+                    <label class="active" for="first_name2">Nombre</label>
+                  </div>
+                  <!--Apellido-->
+                  <div class="input-field col s6">
+                    <input placeholder="" id="last_name2" type="text" class="validate">
+                    <label class="active" for="last_name2">Apellido</label>
+                  </div>
+                  <!--Celular-->
+                  <div class="input-field col s6">
+                    <input type="tel" id="icon_prefix2" class="validate">
+                    <label class="active" for="icon_prefix2">Celular</label>
+                  </div>
+                  <!--Correo-->
+                  <div class="input-field col s6">
+                    <input type="email" id="email2" class="validate">
+                    <label class="active" for="email2">Correo electr&oacutenico</label>
+                  </div>
+                  <!--Tipo de proyecto-->
+                  <div class="input-field col s12">
+                    <label>Seleccione el proyecto</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <select class="browser-default">
+                      <option value="" disabled selected>Elije el proyecto "si no esta definido seleccione Otros"</option>
+                      <option value="1">Provisi&oacuten y colocaci&oacuten en cristaler&iacutea</option>
+                      <option value="2">Provisi&oacuten y colocaci&oacuten de box de baño</option>
+                      <option value="3">Provisi&oacuten y colocaci&oacuten de fachada</option>
+                      <option value="4">Provisi&oacuten y colocaci&oacuten de varandas</option>
+                      <option value="5">Provisi&oacuten y colocaci&oacuten de puertas y ventanas</option>
+                      <option value="5">Otros</option>
+                    </select>
+                  </div>
+                  <!--Ubicacion del proyecto-->
+                  <div class="input-field col s12">
+                    <label for="textarea1">Direcci&oacuten del proyecto</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  </div>
+                  <!--Mensaje-->
+                  <div class="input-field col s12">
+                    <label for="textarea2">Mensaje</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <textarea id="textarea2" class="materialize-textarea"></textarea>
+                  </div>
+                  <!--Adjuntar archivo-->
+                  <div class="file-field input-field col s12">
+                    <div style="background: grey !important;" class="btn">
+                      <span>Archivo</span>
+                      <input type="file" multiple>
+                    </div>
+                    <div class="file-path-wrapper">
+                      <input class="file-path validate" type="text" placeholder="Cargar uno o varios archivos">
+                    </div>
+                  </div>
+                  <!--Enviar-->
+                  <div class="input-field col s12">
+                    <input style="width: 32%; height: 7vh; margin: 0 34% 0 34%; font-size: 1.5em;" type="submit" name="enviar_mensaje">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s1 m1 l1 xl1"></div><!--comlumna de relleno-->
+    </div>
+
+      <!--Footer-->
+      <footer class="page-footer #9e9e9e grey">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5>Vidrios Mallorca</h5>
+                <p class="grey-text text-lighten-4"><i class="material-icons left">home</i>San Blas c/ Tobatí - Bº San Roque - Lambaré, Paraguay</p>
+                <p class="grey-text text-lighten-4"><i class="material-icons left">contact_phone</i>(+595 982 533 277)</p>
+                <p class="grey-text text-lighten-4"><i class="material-icons left">email</i>vidriosmallorca@gmail.com</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Enlaces</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#">Acerca de la Empresa</a></li>
+                <li><a class="grey-text text-lighten-3" href="#">Servicios</a></li>
+                <li><a class="grey-text text-lighten-3" href="#">Contáctenos</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            © 2005 Copyright VidriosMallorca | Todos los derechos reservados.
+            <a class="grey-text text-lighten-4 right" href="#">Más enlaces</a>
+          </div>
+        </div>
+      </footer>
+
+
+
+    <!--JavaScript at end of body of optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+  </body>
+</html>
